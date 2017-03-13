@@ -11,7 +11,12 @@ This repository is intended to serve as an exercise to learn Prolog. We implemen
 * Play arbitrarily. By default, it drags the disc in the first free spot from left to right columns.
 
 ## Requirements
-We recommend using the GNU Prolog Compiler ([gprolog](http://www.gprolog.org/)) developed by Daniel Diaz. It may also work with other compilers, although we haven't tested them.
+We recommend using the GNU Prolog Compiler ([gprolog](http://www.gprolog.org/)) developed by Daniel Diaz. Once gprolog is installed, the steps to run the game are straightforward:
+* Execute `gprolog` in command line.
+* Once in gprolog environment, compile with `[connect4].`.
+* Finally, run game with `connect4.`. Enter a character from A to G to drop a disc down to the associated column.
+
+It may also work with other compilers, although we haven't tested them.
 
 ## Further improvements
 We leave the following items as open improvements:
